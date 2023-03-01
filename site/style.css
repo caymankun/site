@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    font-family: 'Urbanist', sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: orange;
+    /*固定*/
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    /*kokomade*/
+    display: flex;
+}
+.cp{
+    font-family: 'Urbanist', sans-serif;
+    display: flex;
+}
+.span1{
+    font-family: 'Urbanist', sans-serif;
+    background-color: orange;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 60px;
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 90px;
+}
+.footer{
+    background-color: orange;
+    padding: 20px;
+    font-family: 'Urbanist', sans-serif;
+    color: #ffffff;
+}
+.headhn{
+    color: #ffffff;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.header a:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+#noav{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: #1900ff;
+}
+.clogo{
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+p{
+    padding: 50px;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+}
+.ve{
+    margin-left: 30px;
+    text-align: left;
+    font-family: 'Urbanist', sans-serif;
+}
+#linklink{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+ul{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin:0 0 0 auto;
+}
+#q{
+    text-align: end;
+    padding: 10px;
+    justify-content: end;
+}
+@media screen and (max-width:400px) {
+ 
+	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+    .headhn{
+        color: #ffffff;
+        display: inline-flex;
+        justify-content: flex-end;
+
+    }
+    #noav{display: none;}
+}
