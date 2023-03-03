@@ -102,3 +102,14 @@ ul{
     }
     #noav{display: none;}
 }
+.content{
+  /*スクロールバー非表示（IE・Edge）*/
+  -ms-overflow-style: none;
+}
+.content{
+  /*スクロールバー非表示（Firefox）*/
+  scrollbar-width: none;
+}
+.content::-webkit-scrollbar{
+  display:none;
+}
