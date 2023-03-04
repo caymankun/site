@@ -115,3 +115,12 @@ ul{
 .content::-webkit-scrollbar{
   display:none;
 }
+.cp,.headhn{
+	display:inline-block;
+	transition:transform .3s;cursor:pointer
+}
+.cp,.headhn:hover
+{
+	transform:scale(1.2)
+}
+        
