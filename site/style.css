@@ -115,10 +115,10 @@ ul{
 .content::-webkit-scrollbar{
   display:none;
 }
-.cp,.headhn{
+.headhn{
 	transition:transform .3s;cursor:pointer
 }
-.cp,.headhn:hover
+.headhn:hover
 {
 	transform:scale(1.2)
 }
