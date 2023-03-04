@@ -116,7 +116,7 @@ ul{
   display:none;
 }
 .headhn{
-	transition:transform .3s;cursor:pointer
+	transition:transform .3s;
 }
 .headhn:hover
 {
