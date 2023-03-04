@@ -116,7 +116,6 @@ ul{
   display:none;
 }
 .cp,.headhn{
-	display:inline-block;
 	transition:transform .3s;cursor:pointer
 }
 .cp,.headhn:hover
