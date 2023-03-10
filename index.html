@@ -73,6 +73,209 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         前のサイトに行きたいなら......<br>
         <a href="https://sites.google.com/view/caymankun">前のページ</a>
     </p>
+    <div class="container">
+    <button class="button" data-modal-open="modal-1">
+      お問い合わせ
+    </button>
+    
+    <div class="modal" id="modal-1">
+      <div class="modal-overlay" data-modal-close>
+        <div class="modal-container">
+          <h2 class="modal-title">お問い合わせ</h2>
+          <div class="modal-content">
+            
+
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe31JHA2iKrfQhTp_SKJCmSsUudYXUwFE-e2ax-oJHK-Z6Zlg/viewform?embedded=true" width="890" height="400" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        </div>
+          <div class="modal-footer">
+            <button class="button" data-modal-close="modal-1">
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.modal-overlay {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: opacity 200ms linear;
+}
+
+.modal.is-open .modal-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-container {
+  background-color: #fff;
+  border-radius: 6px;
+  min-width: 300px;
+  max-height: 90vh;
+  padding: 1.5rem;
+  transform: translateY(24px);
+  transition: transform 300ms ease-in-out;
+  width: 90%;
+  text-align: center;
+}
+
+.modal.is-open .modal-container {
+  transform: translateY(0);
+}
+
+.modal-title {
+  border-bottom: 1px solid #dedede;
+  font-size: 1.25rem;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.5rem;
+}
+
+.modal-footer {
+  margin-top: 1.5rem;
+  text-align: right;
+}
+
+.button {
+  background-color: #ffc400;
+  border: 0;
+  border-radius: 100px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+  outline: 0;
+  padding: 20px;
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+
+}
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+  const elem = document.getElementById('modal-1');
+  new Modal(elem);
+});
+
+/**
+ * モーダルウィンドウ
+ * @property {HTMLElement} modal モーダル要素
+ * @property {NodeList} openers モーダルを開く要素
+ * @property {NodeList} closers モーダルを閉じる要素
+ */
+function Modal(modal) {
+  this.modal = modal;
+  const id = this.modal.id;
+  this.openers = document.querySelectorAll('[data-modal-open="' + id + '"]');
+  this.closers = this.modal.querySelectorAll('[data-modal-close]');
+  
+  this.handleOpen();
+  this.handleClose();
+}
+
+/**
+ * 開くボタンのイベント登録
+ */
+Modal.prototype.handleOpen = function() {
+  if (this.openers.length === 0) {
+    return false;
+  }
+
+  this.openers.forEach(opener => {
+    opener.addEventListener('click', this.open.bind(this));
+  });
+};
+
+/**
+ * 閉じるボタンのイベント登録
+ */
+Modal.prototype.handleClose = function() {
+  if (this.closers.length === 0) {
+    return false;
+  }
+
+  this.closers.forEach(closer => {
+    closer.addEventListener('click', this.close.bind(this));
+  });
+};
+
+/**
+ * モーダルを開く
+ */
+Modal.prototype.open = function() {
+  this.modal.classList.add('is-open');
+};
+
+/**
+ * モーダルを閉じる
+ */
+Modal.prototype.close = function() {
+  this.modal.classList.remove('is-open');
+};
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+  const elem = document.getElementById('modal-1');
+  new Modal(elem);
+});
+
+function Modal(modal) {
+  this.modal = modal;
+  const id = this.modal.id;
+  this.openers = document.querySelectorAll('[data-modal-open="' + id + '"]');
+  this.closers = this.modal.querySelectorAll('[data-modal-close]');
+  
+  this.handleOpen();
+  this.handleClose();
+}
+
+Modal.prototype.handleOpen = function() {
+  if (this.openers.length === 0) {
+    return false;
+  }
+
+  this.openers.forEach(opener => {
+    opener.addEventListener('click', this.open.bind(this));
+  });
+};
+
+Modal.prototype.handleClose = function() {
+  if (this.closers.length === 0) {
+    return false;
+  }
+
+  this.closers.forEach(closer => {
+    closer.addEventListener('click', this.close.bind(this));
+  });
+};
+
+Modal.prototype.open = function() {
+  this.modal.classList.add('is-open');
+};
+
+Modal.prototype.close = function() {
+  this.modal.classList.remove('is-open');
+};
+</script>
+</script>
 </body>
 <footer class="footer">
     <h2>
