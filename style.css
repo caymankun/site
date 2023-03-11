@@ -84,14 +84,13 @@ p{
 .list{
     display: flex;
     justify-content: start;
-    width: 100%;
     margin:0 0 0 auto;
 }
 #list{
     margin-right: 20px;
     padding: 10px;
-    width: 0%;
     justify-content: end;
+    
 　　 
 }
 @media screen and (max-width:400px) {
