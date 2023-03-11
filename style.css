@@ -8,7 +8,6 @@
     font-family: 'Urbanist', sans-serif;
     padding-top: 20px;
     padding-left: 20px;
-    color: #ffffff;
     background-color: orange;
     transition-duration :990ms ;
     /*固定*/
@@ -31,17 +30,14 @@
     display: block;
     font-size: 60px;
     padding-top: 100px;
-    color: white;
     padding-bottom: 90px;
 }
 .footer{
     background-color: orange;
     padding: 20px;
     font-family: 'Urbanist', sans-serif;
-    color: #ffffff;
 }
 .headhn{
-    color: #ffffff;
     padding: 10px;
     display: inline-flex;
     justify-content: flex-end;
@@ -51,7 +47,6 @@
     transition-duration :900ms ;
 }
 #noav{
-    color: #ffffff;
     text-decoration: none;
     padding: 10px;
     margin: auto;
