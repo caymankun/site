@@ -39,6 +39,7 @@
     font-family: 'Urbanist', sans-serif;
 }
 .headhn{
+    color="black"
     padding: 10px;
     display: inline-flex;
     justify-content: flex-end;
@@ -48,6 +49,7 @@
     transition-duration :900ms ;
 }
 #noav{
+    color="black"
     text-decoration: none;
     padding: 10px;
     margin: auto;
@@ -94,7 +96,7 @@ ul{
  
 	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
     .headhn{
-        color: #ffffff;
+        color="black"
         display: inline-flex;
         justify-content: flex-end;
 
