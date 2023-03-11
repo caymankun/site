@@ -41,8 +41,9 @@
 .headhn{
     color: black;
     padding: 10px;
-    display: inline-flex;
+    display: flex;
     justify-content: flex-end;
+     
 }
 .header a:hover{
     background-color: rgba(255, 255, 255, 0.322);
