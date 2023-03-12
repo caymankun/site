@@ -4,6 +4,7 @@
     cursor: url(cs.png),auto;
 }
 .controol{
+	background-color: orange;
 	height: 400px;
 	position: fixed;
     bottom: 50%;
