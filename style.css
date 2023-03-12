@@ -5,15 +5,12 @@
 }
 .controol{
 	background-color: orange;
-	height: 400px;
-	position: fixed;
-    bottom: 50%;
-    top: 50%;
-	 width: 30px;
+}
+.onoffd{
 	
 }
-.contorool header{
-	display="none"
+input[type="checkbox"]:checked + .header{
+  display:block;
 }
 .header{
     font-family: 'Urbanist', sans-serif;
