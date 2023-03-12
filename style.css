@@ -58,7 +58,6 @@ input[type="checkbox"]:checked + .controol{
     text-decoration: none;
     padding: 10px;
     margin: auto;
-    display: none;
 }
 a{
     text-decoration: none;
@@ -68,6 +67,7 @@ a{
     align-items: center;
     padding: 10px;
     margin: auto;
+    display: flex;
 }
 p{
     padding: 50px;
@@ -96,6 +96,7 @@ p{
     margin-right: 20px;
     padding: 10px;
     justify-content: end;
+    display: flex;
 }
 @media screen and (max-width:400px) {
  
