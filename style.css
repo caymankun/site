@@ -5,11 +5,13 @@
 }
 .controol{
 	background-color: orange;
+	display="none"
 }
 .onoffd{
+    
 	
 }
-input[type="checkbox"]:checked + .header{
+input[type="checkbox"]:checked + .controol{
   display:block;
 }
 .header{
