@@ -21,10 +21,7 @@ input[type="checkbox"]:checked + .controol{
     transition-duration :990ms ;
     /*固定*/
     position: fixed;
-　　left="50%"
-    right="50%"
-    bottom: 50%;
-    top: 50%;
+　　margin: 0 auto;
     /*kokomade*/
     display: block;
     width: 100px;
