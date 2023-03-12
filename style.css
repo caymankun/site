@@ -90,20 +90,26 @@ p{
     margin-right: 10px;
 }
 .list{
-    display: flex;
+     display: flex;
     justify-content: start;
-    margin:0 0 0 auto;
     width: 100%;
-    display: flex;
+    margin:0 0 0 auto;
 }
 #list{
     margin-right: 20px;
-    width: 100%;
     padding: 10px;
     justify-content: end;
-　　 display: flex;
 }
-
+@media screen and (max-width:400px) {
+ 
+	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+    .headhn{
+        color: black;
+        display: inline-flex;
+        justify-content: flex-end;
+    }
+    #noav{display: none;}
+}
 
 .content::-webkit-scrollbar{
   display:none;
