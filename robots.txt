@@ -1,4 +1,0 @@
-User-agent: Googlebot*
-Disallow:/404.html
-Sitemap: https://caymankun.f5.si/sitemap-pc.xml
-Sitemap: https://caymankun.f5.si/sitemap-mb.xml
