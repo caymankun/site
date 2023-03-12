@@ -22,6 +22,7 @@ input[type="checkbox"]:checked + .controol{
     /*固定*/
     position: fixed;
 　　margin: 0 auto;
+    text-align: center;
     /*kokomade*/
     display: block;
     width: 100px;
@@ -95,14 +96,14 @@ p{
     justify-content: start;
     margin:0 0 0 auto;
     width: 100%;
+    display: flex;
 }
 #list{
     margin-right: 20px;
     width: 100%;
     padding: 10px;
     justify-content: end;
-    
-　　 
+　　 display: flex;
 }
 @media screen and (max-width:400px) {
  
