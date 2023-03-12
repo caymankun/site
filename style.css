@@ -12,7 +12,7 @@
     height: 100px;
 }
 .header{
-    display="none"
+    display: none;
 }
 .controol:hover{
 	font-family: 'Urbanist', sans-serif;
