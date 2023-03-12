@@ -21,6 +21,8 @@
     transition-duration :990ms ;
     /*固定*/
     position: fixed;
+　　left="50%"
+    right="50%"
     bottom: 50%;
     top: 50%;
     /*kokomade*/
