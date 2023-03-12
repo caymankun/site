@@ -66,6 +66,7 @@
     text-decoration: none;
     padding: 10px;
     margin: auto;
+    display: none;
 }
 a{
     text-decoration: none;
