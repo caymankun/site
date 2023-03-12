@@ -4,8 +4,18 @@
     cursor: url(cs.png),auto;
     
 }
+.controol{
+	position: fixed;
+    bottom: 50%;
+    top: 50%;
+     width: 10px;
+    height: 100px;
+}
 .header{
-    font-family: 'Urbanist', sans-serif;
+    display="none"
+}
+.controol:hover{
+	font-family: 'Urbanist', sans-serif;
     color: black;
     background-color: orange;
     transition-duration :990ms ;
