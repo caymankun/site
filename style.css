@@ -17,8 +17,7 @@ input[type="checkbox"]:checked + .controol{
     transition-duration :990ms ;
     /*固定*/
     position: fixed;
-　　margin: 0 auto;
-    text-align: center;
+    bottom: 0;
     /*kokomade*/
     display: block;
     width: 100px;
