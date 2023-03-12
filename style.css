@@ -5,11 +5,7 @@
 }
 .controol{
 	background-color: orange;
-	display="none"
-}
-.onoffd{
-    
-	
+	display: flex;
 }
 input[type="checkbox"]:checked + .controol{
   display:block;
