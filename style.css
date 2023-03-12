@@ -13,7 +13,7 @@
     transition-duration :990ms ;
     /*固定*/
     position: fixed;
-    top="5px"
+    bottom="0"
     width: 100%;
     /*kokomade*/
     display: flex;
