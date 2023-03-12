@@ -12,7 +12,7 @@
     background-color: orange;
     transition-duration :990ms ;
     /*固定*/
-    position: sticky;
+    position: fixed;
     top="5px"
     width: 100%;
     padding: 5px;
