@@ -5,11 +5,11 @@
     
 }
 .controol{
-	position: fixed;
+    position: fixed;
     bottom: 50%;
     top: 50%;
-     width: 10px;
-    height: 100px;
+    width: 30px;
+    height: 200px;
 }
 .header{
     display: none;
