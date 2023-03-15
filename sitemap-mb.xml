@@ -4,7 +4,7 @@
 <url>
   <loc>https://caymankun.f5.si/</loc>
   <image:image>
-      <image:loc>https://caymankun.f5.si/caymankun.f5.si.webp</image:loc>
+      <image:loc>https://caymankun.f5.si/caymankun.f5.si.webp/</image:loc>
   </image:image>
   <priority>1.0</priority>
   <lastmod>2023-03-06T18:48:50+09:00</lastmod>
@@ -13,7 +13,7 @@
 <url>
   <loc>https://caymankun.f5.si/index.html</loc>
   <image:image>
-      <image:loc>https://caymankun.f5.si/caymankun.f5.si.webp</image:loc>
+      <image:loc>https://caymankun.f5.si/caymankun.f5.si.webp/</image:loc>
   </image:image>
   <priority>0.8</priority>
   <lastmod>2023-03-06T18:48:50+09:00</lastmod>
