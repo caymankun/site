@@ -7,9 +7,6 @@
 	background-color: orange;
 	display: flex;
 }
-input[type="checkbox"]:checked + .controol{
-  display:block;
-}
 .header{
     font-family: 'Urbanist', sans-serif;
     color: black;
@@ -76,7 +73,7 @@ p{
 }
 .ve{
     margin-left: 30px;
-    text-align: left;
+    text-align: center;
     font-family: 'Urbanist', sans-serif;
 }
 #linklink{
