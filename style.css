@@ -115,13 +115,3 @@ p{
 ::-webkit-scrollbar{
    display: none;
 }
-
-
-.headhn{
-	transition:transform .3s;
-}
-.headhn:hover
-{
-	transform:scale(1.2)
-}
-        
