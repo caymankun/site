@@ -96,6 +96,9 @@ p{
     justify-content: end;
     display: flex;
 }
+.fn{
+    font-weight: 300;
+}
 @media screen and (max-width:400px) {
  
 	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
