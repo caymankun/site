@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<!-- created with free sitemap generation system www.sitemapxml.jp -->
 <url>
   <loc>https://caymankun.f5.si/</loc>
-  <image:image>
-      <image:loc>https://caymankun.f5.si/caymankun.f5.si.webp</image:loc>
-  </image:image>
-  <priority>1.0</priority>
-  <lastmod>2023-03-06T19:43:35+09:00</lastmod>
+  <lastmod>2023-03-24T10:47:47+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://caymankun.f5.si/index.html</loc>
-    <image:image>
-      <image:loc>https://caymankun.f5.si/caymankun.f5.si.webp</image:loc>
-  </image:image>
-  <priority>0.8</priority>
-  <lastmod>2023-03-06T19:43:35+09:00</lastmod>
+  <loc>https://caymankun.f5.si/shortcut</loc>
+  <lastmod>2023-03-24T10:47:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://caymankun.f5.si/shortcut.html</loc>
-  <priority>0.8</priority>
-  <lastmod>2023-03-06T19:43:35+09:00</lastmod>
+  <loc>https://caymankun.f5.si/info</loc>
+  <lastmod>2023-03-24T10:47:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://caymankun.f5.si/info.html</loc>
-  <priority>0.8</priority>
-  <lastmod>2023-03-06T19:43:35+09:00</lastmod>
+  <loc>https://caymankun.f5.si/try</loc>
+  <lastmod>2023-03-24T10:47:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://caymankun.f5.si/try.html</loc>
-  <priority>0.8</priority>
-  <lastmod>2023-03-06T19:43:35+09:00</lastmod>
+  <loc>https://caymankun.f5.si/1359sure</loc>
+  <lastmod>2023-03-24T10:47:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://caymankun.f5.si/emoji</loc>
+  <lastmod>2023-03-24T10:47:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caymankun.f5.si/kaiten</loc>
+  <lastmod>2023-03-24T10:47:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 </urlset>
