@@ -120,49 +120,51 @@ p{
 ::-webkit-scrollbar{
    display: none;
 }
-/*ハンバーガーメニュー下準備*/
-#menubtn img{
-    width:100%;
-    max-width: 50px;
+
+
+
+
+
+.Menu {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.w1000{
-    max-width:1000px;
-    margin: 0 auto;
+.Menu-CloseBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
 }
-nav{
-    background-color:rgba(255, 166, 0, 0.555);
-    padding:20px 3%;
+.Menu-CloseBtn-Icon {
+  width: 32px;
+  color: #111;
 }
-.nav-hidden{
-    display:none;
+.Menu-Group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px 12px;
 }
-nav{
-    background-color:orange;
-    padding:20px 3%;
-    display: none;/*追加*/
+.Menu-Group > * + * {
+  border-top: solid 2px #111;
 }
-/*ハンバーガーメニュー*/
-#menubtn img{
-    width:100%;
-    max-width: 50px;
+.Menu-Group-Item {
+  width: 100%;
+  flex: auto;
+  padding: 4px;
 }
-.w1000{
-    max-width:1000px;
-    margin: 0 auto;
-}
-nav{
-    background-color:rgba(255, 166, 0, 0.521);
-    padding:20px 3%;
-    display: none;
-}
-#nav-input:checked ~ nav {/*チェック入ってるとき ~ メニューが*/
-    display: block;/*追加*/
-    animation: 1s fadeIn;/*追加*/
-}
-@keyframes fadeIn {
-    from { opacity: 10; }/*追加*/
-    to { opacity: 10; }/*追加*/
-  }
-.nav-hidden{
-    display:none;
+.Menu-Group-Item-Link {
+  padding: 1em 0.5em;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
 }
