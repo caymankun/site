@@ -10,7 +10,7 @@
   $mask.on('click', function() {
     $nav.removeClass( open );
   });
-} )(jQuery);
+)(jQuery);
 (function($) {
   var $nav   = $('#navArea');
   var $btn   = $('.toggle_btn');
