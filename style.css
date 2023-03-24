@@ -125,139 +125,109 @@ p{
 
 
 
-/*============
-nav
-=============*/
-nav {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: -300px;
-  bottom: 0;
-  width: 300px;
-  background: orange;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  transition: all .5s;
-  z-index: 3;
-  opacity: 0;
+
+
+#global-navi {
+    background:orange;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 100%;
 }
-.open nav {
-  left: 0;
-  opacity: 1;
+#wrapper nav ul li{
+display:inline-block;
+font-size: 16px;
+padding:  30px 20px 25px 28px;
 }
-nav .inner {
-  padding: 25px;
+#wrapper nav ul li a{
+color: #000000
 }
-nav .inner ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+ 
+@media screen and (max-width: 600px) {
+#wrapper nav {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    padding-top: 50px;
+    background:orange;
+    font-size: 16px;
+    box-sizing: border-box;
+    z-index: 2
 }
-nav .inner ul li {
-  position: relative;
-  margin: 0;
-  border-bottom: 1px solid #333;
+#wrapper nav ul li {
+    display:block;
+    padding: 20px 28px
 }
-nav .inner ul li a {
-  display: block;
-  color: #333;
-  font-size: 14px;
-  padding: 1em;
-  text-decoration: none;
-  transition-duration: 0.2s;
+  
+#wrapper nav ul li a {
+    text-decoration: none;
+    color: #000000
 }
-nav .inner ul li a:hover {
-  background: #e4e4e4;
+  
+#wrapper .btn-gnavi {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 24px;
+    z-index: 3;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all 400ms;
+    transition: all 400ms
 }
-@media screen and (max-width: 767px) {
-  nav {
-    left: -220px;
-    width: 220px;
-  }
+  
+#wrapper .btn-gnavi span {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #000000;
+    border-radius: 10px;
+    -webkit-transition: all 400ms;
+    transition: all 400ms
 }
-/*============
-.toggle_btn
-=============*/
-.toggle_btn {
-  display: block;
-  position: fixed;
-  top: 30px;
-  right: 30px;
-  width: 30px;
-  height: 30px;
-  transition: all .5s;
-  cursor: pointer;
-  z-index: 3;
+  
+#wrapper .btn-gnavi span:nth-child(1) {
+    top: 0
 }
-.toggle_btn span {
-  display: block;
-  position: absolute;
-  left: 0;
-  width: 30px;
-  height: 2px;
-  background-color: #333;
-  border-radius: 4px;
-  transition: all .5s;
+  
+#wrapper .btn-gnavi span:nth-child(2) {
+    top: 10px
 }
-.toggle_btn span:nth-child(1) {
-  top: 4px;
+  
+#wrapper .btn-gnavi span:nth-child(3) {
+    top: 20px
 }
-.toggle_btn span:nth-child(2) {
-  top: 14px;
+  
+#wrapper .btn-gnavi.open {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
 }
-.toggle_btn span:nth-child(3) {
-  bottom: 4px;
+  
+#wrapper .btn-gnavi.open span {
+    background: orange
 }
-.open .toggle_btn span {
-  background-color: #fff;
+  
+#wrapper .btn-gnavi.open span {
+    width: 24px;
 }
-.open .toggle_btn span:nth-child(1) {
-  -webkit-transform: translateY(10px) rotate(-315deg);
-  transform: translateY(10px) rotate(-315deg);
+#wrapper .contents section p {
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    line-height: 1.4;
+    font-size: 20px;
+    color: orange;
+    text-shadow: 0 0 6px #000000
 }
-.open .toggle_btn span:nth-child(2) {
-  opacity: 0;
+  
+#wrapper .contents section:nth-child(odd) p {
+    left: 10%
 }
-.open .toggle_btn span:nth-child(3) {
-  -webkit-transform: translateY(-10px) rotate(315deg);
-  transform: translateY(-10px) rotate(315deg);
+  
+#wrapper .contents section:nth-child(even) p {
+    right: 10%
 }
-/*============
-#mask
-=============*/
-#mask {
-  display: none;
-  transition: all .5s;
-}
-.open #mask {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  opacity: .8;
-  z-index: 2;
-  cursor: pointer;
-}
-/*============
-main
-=============*/
-main {
-  padding: 50px;
-}
-main h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  text-align: center;
-}
-/*============
-body
-=============*/
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
 }
