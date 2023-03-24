@@ -16,3 +16,17 @@
     $nav.removeClass( open );
   });
 } )(jQuery);
+
+$(function(){
+ 
+ //音を鳴らす
+ $('.headhn').mouseover(function(){
+
+     document.getElementById("overSound").currentTime = 0;
+     document.getElementById("overSound").play();
+
+ });
+
+
+});
+
