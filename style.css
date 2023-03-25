@@ -146,9 +146,10 @@ p{
     width: 50px;
     height: 30px;
     border-radius: calc(30px / 2);
-    background: #ff0000;
     transition: background 200ms;
     z-index: 2147483647;
+	right: 10%;
+  top: 10%;
 }
 .c-switch-label::before {
     content: '';
@@ -176,6 +177,7 @@ p{
   width: 100%; height: 100%;
   background: rgba(100, 100, 100, .8);
   z-index: 2147483647;
+
 }
 
 /** チェックOFFなら非表示 */
@@ -189,6 +191,7 @@ input:checked ~ .message{
   left: 0; top: 0;
   width: 100%; height: 100%;
   z-index: 2147483647;
+  background-color: rgba(255, 166, 0, 0.589);
 }
 
 /** チェックボックス横にラベル表示 */
