@@ -22,7 +22,7 @@ $(function(){
 
 
 function foo() {
-    if (document.getElementById("lock").checked) {
+    if (document.getElementById("check").checked) {
       document.removeEventListener('touchmove', noscroll);
     document.removeEventListener('wheel', noscroll);
     } else {
