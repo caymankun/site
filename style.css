@@ -52,22 +52,12 @@
     background-color: rgba(255, 255, 255, 0.322);
     transition-duration :90ms ;
 }
-#noav{
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-    margin: auto;
-}
+
 a{
     text-decoration: none;
     color: #1900ff;
 }
-.clogo{
-    align-items: center;
-    padding: 10px;
-    margin: auto;
-    display: flex;
-}
+
 p{
     padding: 50px;
     text-align: center;
