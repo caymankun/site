@@ -28,14 +28,14 @@ let enableMouseWheel = true;
 
 // チェックボックスをクリックした時の処理
 document
-.querySelector('.c-switch-label')
+.querySelector('.c-switch-check')
 .addEventListener('click',(event)=>{
   enableMouseWheel = event.target.checked === false;
 });
 
 // スクロール可能な要素上でマウスホイールした時の処理
 document
-.querySelector('.headhn')
+.querySelector('*')
 .addEventListener('wheel',(event) =>{
   if(enableMouseWheel === true){
     return;
