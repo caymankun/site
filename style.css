@@ -63,6 +63,7 @@ input:checked ~ #noav{
 .headhn{
     color: black;
 　　display: block;
+    padding: 20px;
      
 }
 .header a:hover{
