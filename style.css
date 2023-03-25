@@ -65,7 +65,7 @@ input:checked ~ #noav{
     padding: 10px;
     display: inline-flex;
     justify-content: flex-end;
-　　
+　　display: block;
      
 }
 .header a:hover{
@@ -221,5 +221,5 @@ text-align: center;
   padding: 20px;
   display: block;
 width: 70px;
-  height: 30px;
+height: 30px;
 }
