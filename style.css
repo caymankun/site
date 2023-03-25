@@ -212,7 +212,7 @@ input:checked ~ .message div:hover{
 }
 .spa1{
 justify-content:center;
-	
+border: solid 2px;
 text-align: center;
   margin-top: 10px;
   padding: 20px;
