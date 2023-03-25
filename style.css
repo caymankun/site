@@ -186,7 +186,6 @@ p{
 }
 /** チェックONなら表示 */
 input:checked ~ .message{
-  overflow: hidden;
   display: block;
 　position: fixed;	
   left: 0; top: 0;
