@@ -206,3 +206,14 @@ margin: 5px;
 .space{
   height: 10px;
 }
+
+
+
+.admax-switch{
+        bottom: 8%;
+        text-align: center;
+        position: fixed;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
