@@ -211,6 +211,7 @@ margin: 5px;
 
 .admax-switch{
         bottom: 1%;
+	background-color: orange;
         text-align: center;
         position: fixed;
         left: 50%;
