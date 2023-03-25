@@ -137,6 +137,7 @@ p{
     }
     /** チェックONなら表示 */
     input:checked ~ .message{
+      display: block;
       top: 10px;
       width: 100%;
       height: 50%;
