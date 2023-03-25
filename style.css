@@ -202,5 +202,5 @@ input:checked ~ .message div:hover{
 .spa1{
 justify-content:center;
 margin: 5px;
-display: block;
+display: inline-block;
 }
