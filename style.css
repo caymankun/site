@@ -67,11 +67,6 @@ width: 100px;
 height: 40px;
 border: solid 1px;
 text-align: center;
-top: 50%;
- left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
-	
 }
 .header a:hover{
     background-color: rgba(255, 255, 255, 0.322);
@@ -199,6 +194,10 @@ position: fixed;
  text-align: center;
 flex-wrap:wrap;
 justify-content:center;
+top: 50%;
+ left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
 	
 }
 input:checked ~ .message div:hover{
