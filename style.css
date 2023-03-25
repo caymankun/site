@@ -170,7 +170,7 @@ p{
 /** チェックONなら表示 */
 input:checked ~ .message{
 row-gap:10px;
-display: inline-flex;
+display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 align-content: flex-start;
