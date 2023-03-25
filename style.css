@@ -218,4 +218,5 @@ text-align: center;
   padding: 20px;
   display: block;
 flex-wrap:wrap;
+width: fit-content;
 }
