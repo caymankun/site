@@ -153,7 +153,7 @@ p{
       top: 5%;
     }
     [type="checkbox"].toggle:after{
-      content: "ON/OFF";
+      content: "ページ切り替えON/OFF";
       background-color: rgb(255, 207, 119);
       position: absolute;
       width: 100px; height: 20px;
