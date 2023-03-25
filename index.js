@@ -21,7 +21,7 @@ $(function(){
 
 
 
-function() {
+function foo () {
     if (document.getElementById("check").checked) {
       document.removeEventListener('touchmove', noscroll);
     document.removeEventListener('wheel', noscroll);
