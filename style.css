@@ -113,8 +113,6 @@ p{
 	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
     .headhn{
         color: black;
-        display: inline-flex;
-        justify-content: flex-end;
     }
     #noav{display: none;}
 }
