@@ -139,7 +139,7 @@ p{
     input:checked ~ .message{
       display: block;
       width: 100%;
-      height: 100vmin;
+      height: 50%;
       background-color: orange;
       text-align: center;
       
@@ -148,7 +148,8 @@ p{
     /** チェックボックス横にラベル表示 */
     [type="checkbox"].toggle{
       position: fixed;
-      right: 5%;
+      right: 10%;
+      top: 5%;
     }
     [type="checkbox"].toggle:after{
       content: "ON/OFF";
