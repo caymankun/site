@@ -132,6 +132,7 @@ p{
 
 
 
+
 .message{ 
       display: none;
     }
@@ -156,7 +157,7 @@ p{
       content: "ページ切り替えON/OFF";
       background-color: rgb(255, 207, 119);
       position: absolute;
-      width: 100px; height: 20px;
+      width: 130px; height: 20px;
       padding-left: 20px;
       top: 50%;
       transform: translateY(-50%);
