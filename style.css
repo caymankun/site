@@ -62,13 +62,11 @@ input:checked ~ #noav{
 }
 .headhn{
     color: black;
-    justify-content: flex-end;
 　　display: block;
      
 }
 .header a:hover{
     background-color: rgba(255, 255, 255, 0.322);
-    transition-duration :90ms ;
 }
 a{
     text-decoration: none;
@@ -216,7 +214,6 @@ justify-content:center;
 border: solid 1px;
 text-align: center;
   margin: 10px;
-  padding: 20px;
   display: block;
 width: 70px;
 height: 30px;
