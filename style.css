@@ -63,16 +63,14 @@ input:checked ~ #noav{
 .headhn{
     color: black;
     padding: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+     
 }
-
-headhn:hover{
-background: rgba(179, 179, 179, 0.329);
-}
-	.header a:hover{
+.header,.headhn a:hover{
     background-color: rgba(255, 255, 255, 0.322);
     transition-duration :90ms ;
 }
-
 a{
     text-decoration: none;
     color: #1900ff;
