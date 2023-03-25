@@ -28,7 +28,7 @@ let enableMouseWheel = true;
 
 // チェックボックスをクリックした時の処理
 document
-.querySelector('.c-switch-label"')
+.querySelector('.c-switch-label')
 .addEventListener('click',(event)=>{
   enableMouseWheel = event.target.checked === false;
 });
