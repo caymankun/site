@@ -169,6 +169,7 @@ p{
 }
 /** チェックONなら表示 */
 input:checked ~ .message{
+row-gap:10px;
 display: inline-flex;
 position: fixed;
   left: 0; top: 0;
