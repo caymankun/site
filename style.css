@@ -141,13 +141,14 @@ p{
     display: none;
 }
 .c-switch-label {
-    position: relative;
+    position: fixed;
     display: inline-block;
     width: 50px;
     height: 30px;
     border-radius: calc(30px / 2);
     background: #ff0000;
     transition: background 200ms;
+    z-index: 2147483647;
 }
 .c-switch-label::before {
     content: '';
