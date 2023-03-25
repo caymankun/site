@@ -169,13 +169,7 @@ p{
 }
 /** チェックONなら表示 */
 input:checked ~ .message{
-row-gap:10px;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-content: flex-start;
-justify-content: center;
-	
+ display: inline-flex;
   left: 0; top: 0;
   width: 100%; height: 100%;
   z-index: 2147487;
