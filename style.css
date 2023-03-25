@@ -19,13 +19,6 @@
     padding: 10px;
     margin: auto;
 }
-input:checked ~ .clogo{
-display: none;
-}
-input:checked ~ #noav{
-	display: none;
-}
-
 .header{
     font-family: 'Urbanist', sans-serif;
     color: black;
@@ -169,15 +162,6 @@ p{
 .c-switch-check:checked + .c-switch-label::before {
     transform: translateX(calc((50px - 4px) - (30px - 4px)));
 }
-#fullOverlay{
-  display: none;
-  position: absolute;
-  left: 0; top: 0;
-  width: 100%; height: 100%;
-  background: rgba(100, 100, 100, .);
-  z-index: 2147483647;
-}
-
 /** チェックOFFなら非表示 */
 .message{ 
   display: none;
