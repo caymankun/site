@@ -21,26 +21,12 @@ $(function(){
 
 
 
-
-
-// マウスホイールを有効にするかどうか
-let enableMouseWheel = true;
-
-// チェックボックスをクリックした時の処理
-document
-.querySelector('.c-switch-check')
-.addEventListener('click',(event)=>{
-  enableMouseWheel = event.target.checked === false;
-});
-
-// スクロール可能な要素上でマウスホイールした時の処理
-document
-.querySelector('*')
-.addEventListener('wheel',(event) =>{
-  if(enableMouseWheel === true){
-    return;
+function foo() {
+    if (document.getElementById("lock").checked) {
+      document.removeEventListener('touchmove', noscroll);
+    document.removeEventListener('wheel', noscroll);
+    } else {
+      document.addEventListener('touchmove', noscroll, {passive: false});
+    document.addEventListener('wheel', noscroll, {passive: false});
   }
-  // マウスホイールが無効な場合はevent.preventDefault()を実行
-  event.preventDefault();
-});
-
+}
