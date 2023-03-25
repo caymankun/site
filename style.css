@@ -186,7 +186,8 @@ p{
   display: none;
 }
 /** チェックONなら表示 */
-input:checked ~ .message.scroll-lock{
+input:checked ~ .message{
+  overflow-y:hidden;
   display: block;
   position: absolute;
   left: 0; top: 0;
