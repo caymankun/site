@@ -193,7 +193,9 @@ position: fixed;
   z-index: 2147487;
   background-color: rgba(255, 166, 0, 0.950);
  text-align: center;
-	flex-wrap:wrap;
+flex-wrap:wrap;
+justify-content:center;
+	
 }
 input:checked ~ .message div:hover{
   background-color: rgba(255, 255, 255, 0.404);
@@ -213,11 +215,11 @@ input:checked ~ .message div:hover{
 }
 .spa1{
 justify-content:center;
-border: solid 2px;
+border: solid 1px;
 text-align: center;
   margin: 10px;
   padding: 20px;
   display: block;
-flex-wrap:wrap;
-width: fit-content;
+width: 70px;
+  height: 30px;
 }
