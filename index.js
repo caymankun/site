@@ -25,6 +25,7 @@ function() {
     if (document.getElementById("check").checked) {
       document.removeEventListener('touchmove', noscroll);
     document.removeEventListener('wheel', noscroll);
+      window.scrollTo(0, 0);
     } else {
       document.addEventListener('touchmove', noscroll, {passive: false});
     document.addEventListener('wheel', noscroll, {passive: false});
