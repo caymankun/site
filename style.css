@@ -54,8 +54,9 @@
     font-weight: 300;
 }
 .headhn{
-color: black;
-display: block;
+color: black; 
+	height: 20px;
+  display: inline-block;
 width: 100px;
 border: solid 1px;
 text-align: center;
@@ -202,5 +203,6 @@ input:checked ~ .message div:hover{
 .spa1{
 justify-content:center;
 margin: 5px;
-display: inline-block;
+ height: 20px;
+  display: inline-block;
 }
