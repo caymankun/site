@@ -20,6 +20,7 @@
     margin: auto;
 }
 .header{
+    z-index: 21474;
     font-family: 'Urbanist', sans-serif;
     color: black;
     background-color: orange;
