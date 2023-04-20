@@ -161,10 +161,10 @@ p{
     transition: transform 200ms;
 }
 .c-switch-check:checked + .c-switch-label {
-    background: #7adab2;
+    background: #00b478;
 }
 .c-switch-check:checked + .c-switch-label:before {
-    background: #00b478;
+    background: #7adab2;
 }
 .c-switch-check:checked + .c-switch-label::before {
     transform: translateX(calc((50px - 4px) - (30px - 4px)));
