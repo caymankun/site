@@ -145,7 +145,7 @@ p{
     z-index: 2147483640;
     right: 11px;
     top: 11px;
-    background: #ffffff;
+    background: #cdcdcd;
 }
 .c-switch-label::before {
     content: '';
@@ -156,15 +156,15 @@ p{
     width: calc(30px - 4px);
     height: calc(30px - 4px);
     border-radius: calc((30px - 4px) / 2);
-    background: #cdcdcd;
+    background: #ffffff;
     transform: translateX(0);
     transition: transform 200ms;
 }
 .c-switch-check:checked + .c-switch-label {
-    background: #00b478;
+    background: #7adab2;
 }
 .c-switch-check:checked + .c-switch-label:before {
-    background: #7adab2;
+    background: #00b478;
 }
 .c-switch-check:checked + .c-switch-label::before {
     transform: translateX(calc((50px - 4px) - (30px - 4px)));
