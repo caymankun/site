@@ -150,11 +150,11 @@ p{
 .c-switch-label::before {
     content: '';
     position: absolute;
-    top: -5px;
+    top: -3px;
     left: -1px;
     display: block;
-    width: calc(30px - 4px);
-    height: calc(30px - 4px);
+    width: calc(26px - 4px);
+    height: calc(26px - 4px);
     border-radius: calc((30px - 4px) / 2);
     background: #ffffff;
     transform: translateX(0);
