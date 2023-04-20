@@ -134,33 +134,37 @@ p{
  .c-switch-check {
     display: none;
 }
+
 .c-switch-label {
     position: fixed;
     display: inline-block;
-    width: 50px;
-    height: 30px;
+    width: 41px;
+    height: 16px;
     border-radius: calc(30px / 2);
     transition: background 200ms;
     z-index: 2147483640;
-	right: 10px;
-	top: 10px;
-	background: #ff0000;
+    right: 11px;
+    top: 11px;
+    background: #ffffff;
 }
 .c-switch-label::before {
     content: '';
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: -5px;
+    left: -1px;
     display: block;
     width: calc(30px - 4px);
     height: calc(30px - 4px);
     border-radius: calc((30px - 4px) / 2);
-    background: #ffffff;
+    background: #cdcdcd;
     transform: translateX(0);
     transition: transform 200ms;
 }
 .c-switch-check:checked + .c-switch-label {
-    background: #00ff2a;
+    background: #7adab2;
+}
+.c-switch-check:checked + .c-switch-label:before {
+    background: #00b478;
 }
 .c-switch-check:checked + .c-switch-label::before {
     transform: translateX(calc((50px - 4px) - (30px - 4px)));
