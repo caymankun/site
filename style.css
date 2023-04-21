@@ -138,12 +138,12 @@ p{
 .c-switch-label {
     position: fixed;
     display: inline-block;
-    width: 41px;
+    width: 36px;
     height: 16px;
     border-radius: calc(30px / 2);
     transition: background 200ms;
     z-index: 2147483640;
-    right: 11px;
+    right: 17px;
     top: 11px;
     background: #b7b7b7;
 }
@@ -151,7 +151,7 @@ p{
     content: '';
     position: absolute;
     top: -3px;
-    left: -1px;
+    left: -2px;
     display: block;
     width: calc(26px - 4px);
     height: calc(26px - 4px);
@@ -167,7 +167,7 @@ p{
     background: #00b478;
 }
 .c-switch-check:checked + .c-switch-label::before {
-    transform: translateX(calc((52px - 4px) - (30px - 4px)));
+    transform: translateX(calc((48px - 4px) - (30px - 4px)));
 }
 /** チェックOFFなら非表示 */
 .message{ 
