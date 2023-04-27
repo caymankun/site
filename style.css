@@ -3,6 +3,11 @@
     padding:0;
     cursor: url(cs.png),auto;
 }
+html{
+    overflow: auto;
+    overflow-x: hidden;
+}
+
 .controol{
 	background-color: orange;
 	display: flex;
