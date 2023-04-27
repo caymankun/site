@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+<div class="bar">
+<div style="font-weight: 500; background-color: rgb(180, 180, 180); color: rgba(0, 143, 100, 0.993);font-family: sans-serif; display: flex; padding: 13px;">
+    <span class="material-symbols-outlined">arrow_back</span>&emsp;<p style="margin-left: 6vh; margin-top: 2px;" >設定</p>
+</div>
+</div>
+<div class="divs">
+<p class="pie">https://caymankun.f5.si/ <br>をコピー出来ます!!</p>
+<br>
+<br>
+
+<button class="hiddes">ここでコピーする!!</button>
+<br>
+<br>
+
+<div class="kdiv">
+    <div class="adiv">
+        <div class="mdiv">
+
+        </div>
+    </div>
+</div>
+</div>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    </style>
+<script>
+    const p = document.querySelector('p');
+const button = document.querySelector('button');
+
+button.addEventListener('click', () => {
+  if (!navigator.clipboard) {
+    alert("このブラウザは対応していません");
+    return;
+  }
+
+  navigator.clipboard.writeText(p.textContent).then(
+    () => {
+      alert('文章コピーしたよ!!');
+    },
+    () => {
+      alert('コピー失敗です!');
+    });
+});
+</script>
+<style>
+    .bar{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(180, 180, 180);
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .divs{
+        background-color: rgba(204, 204, 204, 0.945);
+        display: block;
+        padding: 100px;
+        height: 4000px;
+    }
+    .hiddes{
+        background-color: rgba(0, 143, 100, 0.993);
+        padding: 10px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        color: white;
+        font-weight: 700;
+    }
+    .adiv{
+        display: block;
+        width:100%;
+        height: 100%;
+        animation-name: aas;
+        animation-timing-function: cubic-bezier(.74,.89,.7,.21);
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+    }
+    .kdiv{
+        width: 200px;
+        height: 4px;
+        background-color: rgb(37, 35, 35);
+    }
+    .mdiv{
+        display: block;
+        width:0%;
+        height: 100%;
+        animation-name: ass;
+        animation-timing-function: cubic-bezier(.74,.89,.7,.21);
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+    }
+    @keyframes aas{
+        0%{
+            background-color: rgb(0, 153, 107);
+            width: 0%;
+        }
+        50%{
+            background-color: rgb(0, 153, 107);
+            width: 100%;
+        }
+        100%{
+            background-color: rgb(0, 153, 107);
+            width: 100%;
+        }
+    }
+    @keyframes ass{
+        0%{
+            background-color: rgb(37, 35, 35);
+            width: 0%;
+        }
+        40%{
+            background-color: rgb(37, 35, 35);
+            width: 0%;
+        }
+        60%{
+            background-color: rgb(37, 35, 35);
+            width: 0%;
+        }
+        80%{
+            background-color: rgb(37, 35, 35);
+            width: 100%;
+        }
+        100%{
+            background-color: rgb(37, 35, 35);
+            width: 100%;
+        }
+    }
+    .pie{
+        padding: 10px;
+        color: rgba(0, 116, 58, 0.993);;
+        background-color: rgba(8, 8, 8, 0.137);
+    }
+</style>
