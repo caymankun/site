@@ -59,6 +59,9 @@ html{
         background-color: rgb(209, 209, 209);
 	font-family: 'Urbanist', sans-serif;
 }
+.sns-wjt-img{
+        border-radius: 25px;
+    }
 .footer{
     background-color: orange;
     padding: 20px;
