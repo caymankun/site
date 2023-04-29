@@ -53,6 +53,12 @@ html{
     padding-bottom: 90px;
     font-weight: 300;
 }
+.sns-wjt{
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(209, 209, 209);
+	font-family: 'Urbanist', sans-serif;
+}
 .footer{
     background-color: orange;
     padding: 20px;
