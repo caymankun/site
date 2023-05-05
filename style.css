@@ -255,3 +255,6 @@ margin: 5px;
 .admax-ads{
 	
 }
+mark {
+        background: linear-gradient(transparent 20%, rgba(255, 166, 0, 0.904) 0%);
+    }
