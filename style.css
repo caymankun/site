@@ -260,9 +260,11 @@ mark {
     }
 .admj{
 position: fixed;
-    bottom: 61px;
+    bottom: 52px;
     z-index: 20;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 3px;
 }
