@@ -258,3 +258,11 @@ margin: 5px;
 mark {
         background: linear-gradient(transparent 0%, rgba(255, 166, 0, 0.692) 0%);
     }
+.admj{
+position: fixed;
+    bottom: 61px;
+    z-index: 20;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
