@@ -52,7 +52,10 @@ html{
     padding-top: 100px;
     padding-bottom: 90px;
     font-weight: 300;
-    background: url(/img/background-ideas-20.webp);
+    background-image: url(/img/background-ideas-20.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
 @keyframes bin1{
 	0% {
